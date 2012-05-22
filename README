@@ -1,0 +1,10 @@
+requires:
+python: 2.X (2.7 advised)
+
+A simple python last.fm client library that can be used to login and submitting 'now playing'/played tracks.
+
+Example usage:
+    last = LastPy("lastfm-username","lastfm-password")
+    last.now_playing("Tornado of Souls", "Megadeth","Rust in Peace")
+    time.sleep(30)
+    last.submit_last_track()
